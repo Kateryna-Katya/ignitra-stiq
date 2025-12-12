@@ -55,7 +55,7 @@ h6 {
 
 a {
     text-decoration: none;
-    color: inherit;
+    color: var(--color-heading);
     transition: var(--transition);
 }
 
@@ -106,6 +106,12 @@ img {
     background: var(--color-heading);
     transition: var(--transition);
     z-index: -1;
+}
+p{
+    color:var(--color-heading);
+}
+span{
+    color:var(--color-heading);
 }
 
 .btn:hover::before {
@@ -910,7 +916,7 @@ body.loaded {
 }
 
 .pages h1 {
-    font-size: 2.5rem;
+    font-size: 1.6rem;
     color: var(--color-primary);
     /* Cyan Neon */
     margin-bottom: 40px;
