@@ -5,29 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page 2</title>
-    <link rel="stylesheet" crossorigin href="/ignitra-stiq/assets/styles-guStct1H.css">
+    <link rel="stylesheet" crossorigin href="/ignitra-stiq/assets/styles-DjV4HosV.css">
   </head>
   <body>
     <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
+  <div class="container header__container">
+    <a href="/" class="header__logo">
+      Ignitra<span class="text-accent">Stiq</span>
+    </a>
+
+    <nav class="nav header__nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#hero" class="nav__link">Главная</a></li>
+        <li class="nav__item"><a href="#about" class="nav__link">Платформа</a></li>
+        <li class="nav__item"><a href="#advantages" class="nav__link">Преимущества</a></li>
+        <li class="nav__item"><a href="#innovations" class="nav__link">Инновации</a></li>
+        <li class="nav__item"><a href="#blog" class="nav__link">Блог</a></li>
       </ul>
     </nav>
+
+    <a href="#contact" class="btn btn--small header__btn">Связаться</a>
+
+    <button class="burger" aria-label="Меню">
+      <span></span>
+      <span></span>
+    </button>
   </div>
 </header>
-
 
     <main>
       <div class="container">
@@ -39,19 +43,61 @@
 
     <footer class="footer">
   <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
-    </p>
+    <div class="footer__grid">
+      <div class="footer__col">
+        <a href="/" class="footer__logo">
+          Ignitra<span class="text-accent">Stiq</span>
+        </a>
+        <p class="footer__desc">
+          Платформа года. Решения, которые меняют правила игры в сфере образования.
+        </p>
+      </div>
+
+      <div class="footer__col">
+        <h3 class="footer__title">Навигация</h3>
+        <ul class="footer__links">
+          <li><a href="#about">О платформе</a></li>
+          <li><a href="#innovations">Технологии</a></li>
+          <li><a href="#blog">База знаний</a></li>
+          <li><a href="#contact">Контакты</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h3 class="footer__title">Информация</h3>
+        <ul class="footer__links">
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="cookies.html">Cookie Policy</a></li>
+          <li><a href="terms.html">Terms of Use</a></li>
+          <li><a href="return.html">Return Policy</a></li>
+          <li><a href="disclaimer.html">Disclaimer</a></li>
+          <li><a href="personal-data-policy.html">Personal Data</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h3 class="footer__title">Контакты</h3>
+        <ul class="footer__contacts">
+          <li class="footer__contact-item">
+            <i data-lucide="map-pin"></i>
+            <span>Via Alessandro Volta, 45, <br>20121 Milano MI, Italia</span>
+          </li>
+          <li class="footer__contact-item">
+            <i data-lucide="phone"></i>
+            <a href="tel:+390294750000">+39 02 9475 0000</a>
+          </li>
+          <li class="footer__contact-item">
+            <i data-lucide="mail"></i>
+            <a href="mailto:support@ignitra-stiq.blog">support@ignitra-stiq.blog</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p>&copy; 2025 Ignitra-Stiq. Все права защищены. Платформа уже доступна в Европе.</p>
+    </div>
   </div>
 </footer>
-
   </body>
 </html>
