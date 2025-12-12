@@ -895,3 +895,73 @@ img {
 body.loaded {
     overflow: auto !important;
 }
+/* --- Legal Pages Styles --- */
+.pages {
+    padding-top: calc(var(--header-height) + 60px);
+    padding-bottom: 80px;
+    background-color: var(--color-bg);
+    min-height: 100vh;
+}
+
+.pages__container {
+    max-width: 800px;
+    /* Узкая колонка для удобного чтения текста */
+    margin: 0 auto;
+}
+
+.pages h1 {
+    font-size: 2.5rem;
+    color: var(--color-primary);
+    /* Cyan Neon */
+    margin-bottom: 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 20px;
+}
+
+.pages h2 {
+    font-size: 1.5rem;
+    color: var(--color-heading);
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.pages p,
+.pages li {
+    font-size: 1.05rem;
+    color: var(--color-text);
+    margin-bottom: 16px;
+    line-height: 1.7;
+}
+
+.pages ul,
+.pages ol {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.pages li {
+    list-style-type: disc;
+    padding-left: 10px;
+}
+
+.pages ol li {
+    list-style-type: decimal;
+}
+
+.pages strong {
+    color: var(--color-heading);
+    font-weight: 600;
+}
+
+.pages a {
+    color: var(--color-accent);
+    /* Violet */
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.pages a:hover {
+    color: var(--color-primary);
+    border-bottom-color: var(--color-primary);
+}
